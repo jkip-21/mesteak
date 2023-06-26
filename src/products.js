@@ -7,7 +7,7 @@ import product6 from './assets/6.webp'
 import product7 from './assets/7.webp'
 import product8 from './assets/8.webp'
 
-export const PRODUCT = [
+export const PRODUCTS = [
     {
         id: 1,
         productName: "Iphone",

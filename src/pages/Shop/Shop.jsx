@@ -1,6 +1,6 @@
 import React from 'react'
-import { PRODUCT } from '../../products'
-import Product from "./Product";
+import { PRODUCTS} from '../../products'
+import {Product} from "./Product";
 import '../../styles/shop.css'
 
 export default function Shop() {
@@ -10,7 +10,7 @@ export default function Shop() {
             <h1>MeekStech Shop</h1>
         </div>
         <div className='products'>
-            {PRODUCT.map((product)=>
+            {PRODUCTS.map((product)=>
                 <Product data={product}/>
             )}
         </div>
