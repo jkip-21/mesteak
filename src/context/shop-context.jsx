@@ -38,6 +38,8 @@ const addToCart = (itemId) => {
     const updateCartItemCount =(newAmount, itemId) => {
         setCartItems((prev)=> ({...prev, [itemId]: newAmount}));
     }
+
+    // constructor with the cart functionalities
     
     const contextValue ={cartItems, addToCart, removeFromCart, updateCartItemCount, getTotalCartAmount};
   return <ShopContext.Provider value={contextValue}>{props.children}</ShopContext.Provider>

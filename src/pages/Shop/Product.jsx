@@ -1,6 +1,6 @@
 import React, { useContext }  from 'react'
 import {ShopContext} from '../../context/shop-context'
-
+// Product info
 export const  Product=(props) =>{
     const {id, productName, productPrice, productImage} = props.data;
   
